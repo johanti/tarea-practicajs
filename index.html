@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="recursos/css/botones.css">
+    <link rel="stylesheet" href="recursos/css/estilos.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+
+    
+
+    
+</head>
+<body>
+    <header id="nav">
+        <nav>
+            <ul>
+                <li><a href="#"><i class="far fa-address-card"></i>inicio</a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i>nosotros</a></li>
+                <li><a href="#"><i class="fas fa-book"></i>portafolio</a></li>
+                <li><a href="#"><i class="fas fa-address-book"></i>contactos</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="olim">
+            <figure> 
+                <img src="recursos/imagenes/juegos-olimpicos-tokio-2020.png" alt="">
+                <figcaption id="titulo">Juegos de la XXXII Olimpiadas</figcaption>
+            </figure>
+            <h2>Resumen de las diferentes disciplinas que participan </h2>
+        </section>
+           
+            <section>
+                
+                <aside>
+                    <nav>
+                        <ul>
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/Olympic_Athletics.png','atletismo')"><a href="#opatletismo">atletismo</a></li> 
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/football.jpg')"><a href="#opfootball">football</a></li>
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/handball.png')"><a href="#ophandball">handball</a></li>
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/Judo,_Rio_2016.png')"><a href="#opjudo">judo</a></li>
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/ciclismo.png')"><a href="#opciclismo">ciclismo</a></li>
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/basketball.png')"><a href="#opbasket">basket</a></li>
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/natacion.png')"><a href="#opnatacion">natacion</a></li>
+                            <li class="miboton styleone" onclick="mostrar_img('recursos/imagenes/pista.png')"><a href="#oppista">pista</a></li>
+                            
+                        </ul>
+                    </nav>
+                </aside>
+            </section>
+
+        <section id="img">
+            <img id="imagen">
+            
+        <article >
+            <figure id="atletismo" >
+                <img src="recursos/imagenes/Olympic_Athletics.png" alt="">
+                <figcaption id="atle">atletismo</figcaption>
+            </figure>
+        </article>
+        <article >
+            <figure>
+                <img src="recursos/imagenes/football.jpg" alt="">
+                <figcaption>football</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <figure>
+                <img src="recursos/imagenes/handball.png" alt="">
+                <figcaption>handball</figcaption>
+            </figure>
+        </article>
+
+        <article >
+            <figure>
+                <img src="recursos/imagenes/Judo,_Rio_2016.png" alt="">
+                <figcaption>judo</figcaption>
+            </figure>
+        </article>
+
+        <article >
+            <figure>
+                <img src="recursos/imagenes/ciclismo.png" alt="">
+                <figcaption>ciclismo</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <figure>
+                <img src="recursos/imagenes/basketball.png" alt="">
+                <figcaption>basket</figcaption>
+            </figure>
+        </article>
+
+        <article >
+            <figure>
+                <img src="recursos/imagenes/natacion.png" alt="">
+                <figcaption>natacion</figcaption>
+            </figure>
+        </article>
+
+        <article >
+            <figure>
+                <img src="recursos/imagenes/pista.png" alt="">
+                <figcaption>pista</figcaption>
+            </figure>
+        </article>
+    </section>
+
+        <section id="tab">
+            <table id="tabla">
+                <thead >
+                    <tr><th>encuentro</th><th>location</th> <th>horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td onclick="mostrar_ocultar('mensaje1')" >Encuentro No.1 <p class="mensaje" id="mensaje1">jornada 1</p></td>
+                        <td onclick="mostrar_ocultar('info1')" >Location No.1 <p class="mensaje" id="info1"> breve descripción delbr
+                            encuentro, y la dirección de la locación. 
+                            </p></td>
+                        <td>08-10 am</td></tr>
+                    <tr>
+                        <td onclick="mostrar_ocultar('mensaje2')" >Encuentro No.2 <p class="mensaje" id="mensaje2">jornada 2</p></td>
+                        <td onclick="mostrar_ocultar('info2')" >Location No.2 <p class="mensaje" id="info2"> breve descripción del
+                            encuentro, y la dirección de la locación. 
+                            </p></td>
+                        <td>10-12 am</td></tr>
+                     <tr>
+                        <td onclick="mostrar_ocultar('mensaje3')" >Encuentro No.3 <p class="mensaje" id="mensaje3">jornada 3</p></td>
+                        <td onclick="mostrar_ocultar('info3')" >Location No.3 <p class="mensaje" id="info3"> breve descripción del
+                            encuentro, y la dirección de la locación. 
+                            </p></td>
+                        <td>02-14 pm</td></tr>
+                    <tr>
+                        <td onclick="mostrar_ocultar('mensaje4')" >Encuentro No.4 <p class="mensaje" id="mensaje4">jornada 4</p></td>
+                        <td onclick="mostrar_ocultar('info4')" >Location No.3 <p class="mensaje" id="info4"> breve descripción del
+                            encuentro, y la dirección de la locación. 
+                            </p></td>
+                        <td>04-06 pm</td></tr>
+                    
+
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+    <script src="recursos/js/mijs.js"></script>
+    <script src="recursos/js/tabla.js"></script>
+    <script src="recursos/js/image.js"></script>
+</body>
+</html>

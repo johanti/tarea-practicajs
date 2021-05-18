@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#olim {
+        text-align: center;
+}
+
+#img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(98, 3, 107);
+  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#tabla{
+    display: inline;
+    margin: 0px;
+}
+
+th, td {
+    width: 35%;
+    padding: 20px;
+    border: 3px solid rgb(248, 130, 20);
+}
+
+#tab{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+}
+.mensaje{
+    text-align: center;
+    display: none;
+}
+
+#titulo{
+    font-size: 30px;
+    
+    
+  
+}
+
+#olim h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 116, 67);
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 2px 5px;
+    padding: 3px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#nav{
+    background-color: rgb(4, 190, 159);
+    padding: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#nav li{
+    display: inline;
+    width: 100%;
+  }
+
+  #imagen{
+      margin-top: 10px;
+      margin-bottom: 15px;
+}
+
+#nav:hover{
+    background-color: rgb(243, 184, 136);
+
+}
+#nav a:hover{
+    color: rgb(71, 49, 7);
+}
+
+
+/*llamando las animaciones*/
+#a{
+    animation-name: escala;
+    animation-duration: 500ms ;
+    animation-timing-function: ease-in ;
+    animation-fill-mode: forwards ;
+}
+
+
+
+/*amiaciones*/
+@keyframes escala {
+    0%{
+        transform: scale(0);
+
+    }
+    70%{
+        transform: scale(1.4);
+
+    }
+    100%{
+        transform: scale(1);
+
+    }
+}
+
+
+
+
+
+  
+
+  

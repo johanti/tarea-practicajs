@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*menu horizontal*/
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 2px 5px;
+    padding: 3px;
+}
+
+.miboton{
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: rgb(218, 88, 88);
+}
+
+.miboton a:hover{
+    color: rgb(253, 253, 253);
+}
+
+.miboton.styleone::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: 2px solid rgb(230, 96, 55);
+    transition: top,bottom,left,right, 500ms ease-in-out;
+}
+
+
+.miboton.styleone:hover::before{
+    top: -4px;
+    bottom: -4px;
+    left: -4px ;
+    right: -4px;
+}
+/*llamando las animaciones*/
+
+
+
+
+
+
+
+/*keyframes*/
